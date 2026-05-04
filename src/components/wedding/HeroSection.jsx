@@ -46,7 +46,7 @@ export default function HeroSection() {
         >
           <div className="h-px w-16 md:w-24 bg-gradient-to-r from-transparent to-primary/50" />
           <p className="font-cormorant text-foreground/80 text-lg md:text-xl tracking-[0.3em]">
-            May 6, 2026
+            March 24, 2026
           </p>
           <div className="h-px w-16 md:w-24 bg-gradient-to-l from-transparent to-primary/50" />
         </motion.div>

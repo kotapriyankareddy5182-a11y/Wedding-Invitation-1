@@ -73,7 +73,7 @@ export default function InvitationEnvelope({ onOpen }) {
                 Wedding Celebration
               </p>
               <p className="font-cormorant text-primary/70 text-base tracking-[0.2em] mb-8">
-                May 6, 2026
+                March 24, 2026
               </p>
 
               {/* Divider */}
