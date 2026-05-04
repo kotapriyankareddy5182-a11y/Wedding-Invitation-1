@@ -9,9 +9,9 @@ const groomImages = [
 ];
 
 const brideImages = [
-  { url: "/images/bride/bride1.jpg", caption: "Golden Blessings" },
-  { url: "/images/bride/bride2.jpg", caption: "Mehendi Swag" },
-  { url: "/images/bride/bride3.jpg", caption: "Bridal Grace" },
+  { url: "/images/bride/bride1.jpg", caption: "Golden Blessings", position: "object-center" },
+  { url: "/images/bride/bride2.jpg", caption: "Mehendi Swag", position: "object-top" },
+  { url: "/images/bride/bride3.jpg", caption: "Bridal Grace", position: "object-top" },
 ];
 
 const coupleImages = [
@@ -43,7 +43,7 @@ const ImageCard = ({ image, direction = "up", index }) => {
           <motion.img
             src={image.url}
             alt={image.caption}
-            className="w-full h-64 md:h-80 object-cover"
+            className={`w-full h-64 md:h-80 object-cover ${image.position || 'object-center'}`}
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
           />

@@ -12,7 +12,7 @@
     --card-foreground: 40 50% 95%;
     --popover: 270 40% 10%;
     --popover-foreground: 40 50% 95%;
-    --primary: 43 72% 53%;
+    --primary: 53 100% 80%;
     --primary-foreground: 270 60% 5%;
     --secondary: 270 50% 15%;
     --secondary-foreground: 40 50% 95%;
@@ -24,8 +24,8 @@
     --destructive-foreground: 0 0% 98%;
     --border: 43 50% 30%;
     --input: 270 30% 18%;
-    --ring: 43 72% 53%;
-    --chart-1: 43 72% 53%;
+    --ring: 53 100% 80%;
+    --chart-1: 53 100% 80%;
     --chart-2: 350 80% 25%;
     --chart-3: 270 50% 30%;
     --chart-4: 40 50% 70%;
@@ -44,7 +44,7 @@
     --card-foreground: 40 50% 95%;
     --popover: 270 40% 10%;
     --popover-foreground: 40 50% 95%;
-    --primary: 43 72% 53%;
+    --primary: 53 100% 80%;
     --primary-foreground: 270 60% 5%;
     --secondary: 270 50% 15%;
     --secondary-foreground: 40 50% 95%;
@@ -56,8 +56,8 @@
     --destructive-foreground: 0 0% 98%;
     --border: 43 50% 30%;
     --input: 270 30% 18%;
-    --ring: 43 72% 53%;
-    --chart-1: 43 72% 53%;
+    --ring: 53 100% 80%;
+    --chart-1: 53 100% 80%;
     --chart-2: 350 80% 25%;
     --chart-3: 270 50% 30%;
     --chart-4: 40 50% 70%;
@@ -89,17 +89,17 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: hsl(43, 72%, 53%);
+  background: hsl(53, 100%, 80%);
   border-radius: 3px;
 }
 
 /* Golden glow text */
 .text-glow {
-  text-shadow: 0 0 20px hsla(43, 72%, 53%, 0.4), 0 0 40px hsla(43, 72%, 53%, 0.2);
+  text-shadow: 0 0 20px hsla(53, 100%, 80%, 0.4), 0 0 40px hsla(53, 100%, 80%, 0.2);
 }
 
 .text-glow-strong {
-  text-shadow: 0 0 10px hsla(43, 72%, 53%, 0.6), 0 0 30px hsla(43, 72%, 53%, 0.4), 0 0 60px hsla(43, 72%, 53%, 0.2);
+  text-shadow: 0 0 10px hsla(53, 100%, 80%, 0.6), 0 0 30px hsla(53, 100%, 80%, 0.4), 0 0 60px hsla(53, 100%, 80%, 0.2);
 }
 
 /* Arch clip path */
@@ -155,12 +155,12 @@
   background: rgba(45, 10, 78, 0.3);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(212, 175, 55, 0.2);
+  border: 1px solid rgba(255, 243, 154, 0.2);
 }
 
 .glass-card {
   background: linear-gradient(135deg, rgba(45, 10, 78, 0.4), rgba(107, 15, 26, 0.2));
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
-  border: 1px solid rgba(212, 175, 55, 0.25);
+  border: 1px solid rgba(255, 243, 154, 0.25);
 }

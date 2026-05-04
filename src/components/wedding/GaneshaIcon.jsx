@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const GANESHA_IMG = "https://media.base44.com/images/public/69f5b05f0ccff00555d4552c/2429dfbff_generated_image.png";
+const GANESHA_IMG = "/images/ganesha.png";
 
 export default function GaneshaIcon() {
   return (
@@ -14,10 +14,12 @@ export default function GaneshaIcon() {
       <div className="relative">
         <div className="absolute -inset-6 rounded-full bg-primary/15 animate-pulse-glow blur-lg" />
         <div className="absolute -inset-3 rounded-full bg-primary/10 animate-pulse-glow" />
-        <img
+        <motion.img
           src={GANESHA_IMG}
           alt="Lord Ganesha"
-          className="relative z-10 w-24 h-24 md:w-28 md:h-28 object-contain drop-shadow-[0_0_20px_rgba(212,175,55,0.5)]"
+          className="relative z-10 w-24 h-24 md:w-28 md:h-28 object-cover rounded-full border-2 border-primary/50 drop-shadow-[0_0_20px_rgba(212,175,55,0.5)]"
+          animate={{ rotate: 360 }}
+          transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
         />
       </div>
       <motion.p

@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import ArchFrame from './ArchFrame';
+import CircleFrame from './CircleFrame';
 import SectionDivider from './SectionDivider';
 
 const GROOM_IMAGE = "/images/groom.jpg";
@@ -34,12 +34,13 @@ export default function CoupleSection() {
         </motion.div>
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-20 lg:gap-28">
-          <ArchFrame
+          <CircleFrame
             imageUrl={GROOM_IMAGE}
             name="Ashok"
             label="The Groom"
             parents="S/o Ankiteddy & Lakshmi Devi"
             delay={0.1}
+            imagePosition="object-[center_15%]"
           />
 
           {/* Center decoration */}
@@ -58,7 +59,7 @@ export default function CoupleSection() {
             <div className="w-px h-16 bg-gradient-to-b from-transparent via-primary/30 to-transparent" />
           </motion.div>
 
-          <ArchFrame
+          <CircleFrame
             imageUrl={BRIDE_IMAGE}
             name="Pooja"
             label="The Bride"

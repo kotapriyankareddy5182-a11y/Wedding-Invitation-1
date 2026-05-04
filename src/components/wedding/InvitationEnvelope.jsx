@@ -38,10 +38,12 @@ export default function InvitationEnvelope({ onOpen }) {
             >
               <div className="relative">
                 <div className="absolute -inset-6 rounded-full bg-primary/15 blur-lg animate-pulse-glow" />
-                <img
-                  src="https://media.base44.com/images/public/69f5b05f0ccff00555d4552c/2429dfbff_generated_image.png"
+                <motion.img
+                  src="/images/ganesha.png"
                   alt="Lord Ganesha"
-                  className="relative z-10 w-20 h-20 md:w-24 md:h-24 object-contain drop-shadow-[0_0_20px_rgba(212,175,55,0.5)]"
+                  className="relative z-10 w-20 h-20 md:w-24 md:h-24 object-cover rounded-full border-2 border-primary/50 drop-shadow-[0_0_20px_rgba(212,175,55,0.5)]"
+                  animate={{ rotate: 360 }}
+                  transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
                 />
               </div>
               <p className="font-cormorant text-primary/80 text-sm tracking-[0.3em] mt-3 uppercase">

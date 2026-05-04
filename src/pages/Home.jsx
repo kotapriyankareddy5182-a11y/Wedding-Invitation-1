@@ -10,6 +10,8 @@ import EventsSection from '../components/wedding/EventsSection';
 import CountdownSection from '../components/wedding/CountdownSection';
 import RsvpSection from '../components/wedding/RsvpSection';
 import Footer from '../components/wedding/Footer';
+import LiveStreamSection from '../components/wedding/LiveStreamSection';
+import LocationMapSection from '../components/wedding/LocationMapSection';
 
 export default function Home() {
   const [opened, setOpened] = useState(false);
@@ -35,6 +37,8 @@ export default function Home() {
           <EventsSection />
           <CountdownSection />
           <GallerySection />
+          <LiveStreamSection />
+          <LocationMapSection />
           <RsvpSection />
           <Footer />
         </motion.div>
