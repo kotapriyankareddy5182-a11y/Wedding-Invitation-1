@@ -12,12 +12,12 @@ export default function GaneshaIcon() {
       className="flex flex-col items-center mb-6"
     >
       <div className="relative">
-        <div className="absolute -inset-6 rounded-full bg-primary/15 animate-pulse-glow blur-lg" />
-        <div className="absolute -inset-3 rounded-full bg-primary/10 animate-pulse-glow" />
+        <div className="absolute -inset-6 rounded-full bg-accent/30 animate-pulse-glow blur-lg" />
+        <div className="absolute -inset-3 rounded-full bg-accent/30 animate-pulse-glow" />
         <motion.img
           src={GANESHA_IMG}
           alt="Lord Ganesha"
-          className="relative z-10 w-24 h-24 md:w-28 md:h-28 object-cover rounded-full border-2 border-primary/50 drop-shadow-[0_0_20px_rgba(212,175,55,0.5)]"
+          className="relative z-10 w-24 h-24 md:w-28 md:h-28 object-cover rounded-full border-2 border-primary/50 drop-shadow-[0_0_20px_rgba(252,151,152,0.5)]"
           animate={{ rotate: 360 }}
           transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
         />

@@ -12,8 +12,8 @@ export default function MandalaPattern() {
         <svg viewBox="0 0 500 500" className="w-full h-full">
           <defs>
             <radialGradient id="mandalaGrad">
-              <stop offset="0%" stopColor="hsl(43, 72%, 53%)" />
-              <stop offset="100%" stopColor="hsl(43, 72%, 53%)" stopOpacity="0" />
+              <stop offset="0%" stopColor="hsl(359, 94%, 79%)" />
+              <stop offset="100%" stopColor="hsl(359, 94%, 79%)" stopOpacity="0" />
             </radialGradient>
           </defs>
           {[...Array(12)].map((_, i) => (

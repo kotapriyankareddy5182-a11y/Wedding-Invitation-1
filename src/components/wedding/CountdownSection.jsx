@@ -13,7 +13,7 @@ function CountdownDigit({ value, label }) {
       className="flex flex-col items-center"
     >
       <div className="relative group">
-        <div className="absolute -inset-2 bg-primary/10 rounded-xl blur-lg opacity-50 group-hover:opacity-80 transition-opacity" />
+        <div className="absolute -inset-2 bg-accent/30 rounded-xl blur-lg opacity-50 group-hover:opacity-80 transition-opacity" />
         <div className="relative glass-card rounded-xl w-16 h-20 md:w-24 md:h-28 flex items-center justify-center">
           <span className="font-playfair text-3xl md:text-5xl text-primary text-glow-strong font-bold">
             {String(value).padStart(2, '0')}
@@ -50,7 +50,7 @@ export default function CountdownSection() {
   return (
     <section className="relative py-24 md:py-32 px-4 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-background via-secondary/20 to-background" />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[300px] bg-primary/5 rounded-full blur-[120px]" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[300px] bg-accent/30 rounded-full blur-[120px]" />
 
       <div className="relative z-10 max-w-3xl mx-auto text-center">
         <motion.div

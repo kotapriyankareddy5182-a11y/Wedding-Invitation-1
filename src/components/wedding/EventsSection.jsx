@@ -27,7 +27,7 @@ const events = [
 export default function EventsSection() {
   return (
     <section className="relative py-24 md:py-32 px-4 overflow-hidden">
-      <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[150px]" />
+      <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-accent/30 rounded-full blur-[150px]" />
 
       <div className="relative z-10 max-w-5xl mx-auto">
         <motion.div
@@ -55,11 +55,11 @@ export default function EventsSection() {
               viewport={{ once: true }}
               transition={{ delay: index * 0.15, duration: 0.7 }}
               whileHover={{ y: -6, scale: 1.02 }}
-              className="glass-card rounded-xl p-6 md:p-8 group cursor-default transition-shadow duration-500 hover:shadow-[0_0_40px_rgba(212,175,55,0.1)]"
+              className="glass-card rounded-xl p-6 md:p-8 group cursor-default transition-shadow duration-500 hover:shadow-[0_0_40px_rgba(252,151,152,0.1)]"
             >
               <div className="flex items-start gap-4">
                 <div className="relative flex-shrink-0">
-                  <div className="absolute -inset-2 bg-primary/10 rounded-full blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  <div className="absolute -inset-2 bg-accent/30 rounded-full blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                   <div className="relative w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center border border-primary/20">
                     <event.icon className="w-5 h-5 text-primary" />
                   </div>

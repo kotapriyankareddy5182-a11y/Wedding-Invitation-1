@@ -23,7 +23,7 @@ export default function RsvpSection() {
 
   return (
     <section className="relative py-24 md:py-32 px-4 overflow-hidden">
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[400px] bg-primary/5 rounded-full blur-[150px]" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[400px] bg-accent/30 rounded-full blur-[150px]" />
 
       <div className="relative z-10 max-w-xl mx-auto">
         <motion.div
@@ -70,7 +70,7 @@ export default function RsvpSection() {
             {/* Gold corner ornaments */}
             {['top-3 left-3 rotate-0', 'top-3 right-3 rotate-90', 'bottom-3 left-3 -rotate-90', 'bottom-3 right-3 rotate-180'].map((pos, i) => (
               <svg key={i} viewBox="0 0 20 20" className={`absolute w-5 h-5 ${pos}`} fill="none">
-                <path d="M 1 10 L 1 1 L 10 1" stroke="hsl(43, 72%, 53%)" strokeWidth="1.2" opacity="0.5" />
+                <path d="M 1 10 L 1 1 L 10 1" stroke="hsl(359, 94%, 79%)" strokeWidth="1.2" opacity="0.5" />
               </svg>
             ))}
 
@@ -140,7 +140,7 @@ export default function RsvpSection() {
               type="submit"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
-              className="w-full py-4 rounded-full border border-primary/40 bg-primary/10 font-cormorant text-primary text-base tracking-[0.3em] uppercase hover:bg-primary/20 hover:border-primary/70 hover:shadow-[0_0_30px_rgba(212,175,55,0.2)] transition-all duration-300"
+              className="w-full py-4 rounded-full border border-primary/40 bg-primary/10 font-cormorant text-primary text-base tracking-[0.3em] uppercase hover:bg-primary/20 hover:border-primary/70 hover:shadow-[0_0_30px_rgba(252,151,152,0.2)] transition-all duration-300"
             >
               ✦ Send RSVP ✦
             </motion.button>

@@ -12,7 +12,7 @@ export default function CircleFrame({ imageUrl, name, parents, label, delay = 0,
     >
       <div className="relative group flex justify-center items-center">
         {/* Outer gold glow */}
-        <div className="absolute -inset-4 bg-primary/10 rounded-full blur-xl opacity-40 group-hover:opacity-80 transition-opacity duration-700" />
+        <div className="absolute -inset-4 bg-accent/30 rounded-full blur-xl opacity-40 group-hover:opacity-80 transition-opacity duration-700" />
 
         {/* The rotating circle frame container */}
         <div className="relative w-64 h-64 md:w-72 md:h-72 flex justify-center items-center">

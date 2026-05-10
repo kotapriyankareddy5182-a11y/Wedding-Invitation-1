@@ -6,7 +6,7 @@ import SectionDivider from './SectionDivider';
 export default function LocationMapSection() {
   return (
     <section className="relative py-24 px-4 overflow-hidden bg-background">
-      <div className="absolute top-1/2 right-1/4 -translate-y-1/2 w-[400px] h-[400px] bg-primary/5 rounded-full blur-[120px]" />
+      <div className="absolute top-1/2 right-1/4 -translate-y-1/2 w-[400px] h-[400px] bg-accent/30 rounded-full blur-[120px]" />
       
       <div className="relative z-10 max-w-5xl mx-auto">
         <motion.div
@@ -41,7 +41,7 @@ export default function LocationMapSection() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="relative w-full h-[400px] md:h-[500px] rounded-2xl overflow-hidden shadow-[0_0_40px_rgba(212,175,55,0.15)] border border-primary/20"
+          className="relative w-full h-[400px] md:h-[500px] rounded-2xl overflow-hidden shadow-[0_0_40px_rgba(252,151,152,0.15)] border border-primary/20"
         >
           <iframe 
             className="w-full h-full"

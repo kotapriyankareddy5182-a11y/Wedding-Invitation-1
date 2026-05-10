@@ -6,30 +6,32 @@
 
 @layer base {
   :root {
-    --background: 270 60% 5%;
-    --foreground: 40 50% 95%;
-    --card: 270 40% 10%;
-    --card-foreground: 40 50% 95%;
-    --popover: 270 40% 10%;
-    --popover-foreground: 40 50% 95%;
-    --primary: 53 100% 80%;
-    --primary-foreground: 270 60% 5%;
-    --secondary: 270 50% 15%;
-    --secondary-foreground: 40 50% 95%;
-    --muted: 270 30% 15%;
-    --muted-foreground: 40 20% 65%;
-    --accent: 350 80% 25%;
-    --accent-foreground: 40 50% 95%;
+    --background: 359 50% 98%;
+    --foreground: 286 27% 35%;
+    --card: 0 0% 100%;
+    --card-foreground: 286 27% 35%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 286 27% 35%;
+    --primary: 286 27% 49%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 193 43% 55%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 57 63% 66%;
+    --muted-foreground: 286 27% 35%;
+    --accent: 359 94% 79%;
+    --accent-foreground: 0 0% 100%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 43 50% 30%;
-    --input: 270 30% 18%;
-    --ring: 53 100% 80%;
-    --chart-1: 53 100% 80%;
-    --chart-2: 350 80% 25%;
-    --chart-3: 270 50% 30%;
-    --chart-4: 40 50% 70%;
-    --chart-5: 270 30% 40%;
+    --border: 286 27% 85%;
+    --input: 0 0% 100%;
+    --ring: 359 94% 79%;
+    --chart-1: 286 27% 49%;
+    --chart-2: 237 23% 55%;
+    --chart-3: 193 43% 55%;
+    --chart-4: 95 41% 61%;
+    --chart-5: 57 63% 66%;
+    --chart-6: 38 81% 67%;
+    --chart-7: 359 94% 79%;
     --radius: 0.75rem;
 
     --font-playfair: 'Playfair Display', serif;
@@ -38,30 +40,32 @@
   }
 
   .dark {
-    --background: 270 60% 5%;
-    --foreground: 40 50% 95%;
-    --card: 270 40% 10%;
-    --card-foreground: 40 50% 95%;
-    --popover: 270 40% 10%;
-    --popover-foreground: 40 50% 95%;
-    --primary: 53 100% 80%;
-    --primary-foreground: 270 60% 5%;
-    --secondary: 270 50% 15%;
-    --secondary-foreground: 40 50% 95%;
-    --muted: 270 30% 15%;
-    --muted-foreground: 40 20% 65%;
-    --accent: 350 80% 25%;
-    --accent-foreground: 40 50% 95%;
-    --destructive: 0 62.8% 30.6%;
+    --background: 359 50% 98%;
+    --foreground: 286 27% 35%;
+    --card: 0 0% 100%;
+    --card-foreground: 286 27% 35%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 286 27% 35%;
+    --primary: 286 27% 49%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 193 43% 55%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 57 63% 66%;
+    --muted-foreground: 286 27% 35%;
+    --accent: 359 94% 79%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 43 50% 30%;
-    --input: 270 30% 18%;
-    --ring: 53 100% 80%;
-    --chart-1: 53 100% 80%;
-    --chart-2: 350 80% 25%;
-    --chart-3: 270 50% 30%;
-    --chart-4: 40 50% 70%;
-    --chart-5: 270 30% 40%;
+    --border: 286 27% 85%;
+    --input: 0 0% 100%;
+    --ring: 359 94% 79%;
+    --chart-1: 286 27% 49%;
+    --chart-2: 237 23% 55%;
+    --chart-3: 193 43% 55%;
+    --chart-4: 95 41% 61%;
+    --chart-5: 57 63% 66%;
+    --chart-6: 38 81% 67%;
+    --chart-7: 359 94% 79%;
   }
 }
 
@@ -85,21 +89,21 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: hsl(270, 60%, 5%);
+  background: hsl(351, 46%, 95%);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: hsl(53, 100%, 80%);
+  background: hsl(359, 94%, 79%);
   border-radius: 3px;
 }
 
 /* Golden glow text */
 .text-glow {
-  text-shadow: 0 0 20px hsla(53, 100%, 80%, 0.4), 0 0 40px hsla(53, 100%, 80%, 0.2);
+  text-shadow: 0 0 20px hsla(359, 94%, 79%, 0.6), 0 0 40px hsla(359, 94%, 79%, 0.4);
 }
 
 .text-glow-strong {
-  text-shadow: 0 0 10px hsla(53, 100%, 80%, 0.6), 0 0 30px hsla(53, 100%, 80%, 0.4), 0 0 60px hsla(53, 100%, 80%, 0.2);
+  text-shadow: 0 0 10px hsla(359, 94%, 79%, 0.8), 0 0 30px hsla(359, 94%, 79%, 0.6), 0 0 60px hsla(359, 94%, 79%, 0.4);
 }
 
 /* Arch clip path */
@@ -152,15 +156,15 @@
 
 /* Glassmorphism */
 .glass {
-  background: rgba(45, 10, 78, 0.3);
+  background: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 243, 154, 0.2);
+  border: 1px solid rgba(252, 151, 152, 0.4);
 }
 
 .glass-card {
-  background: linear-gradient(135deg, rgba(45, 10, 78, 0.4), rgba(107, 15, 26, 0.2));
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.6), rgba(252, 151, 152, 0.2));
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
-  border: 1px solid rgba(255, 243, 154, 0.25);
+  border: 1px solid rgba(252, 151, 152, 0.4);
 }

@@ -11,7 +11,7 @@ export default function CoupleSection() {
     <section className="relative py-24 md:py-32 px-4 overflow-hidden">
       {/* Background glow */}
       <div className="absolute top-1/2 left-1/4 w-[400px] h-[400px] bg-accent/5 rounded-full blur-[120px]" />
-      <div className="absolute top-1/2 right-1/4 w-[400px] h-[400px] bg-primary/5 rounded-full blur-[120px]" />
+      <div className="absolute top-1/2 right-1/4 w-[400px] h-[400px] bg-accent/30 rounded-full blur-[120px]" />
 
       <div className="relative z-10 max-w-6xl mx-auto">
         <motion.div
@@ -53,7 +53,7 @@ export default function CoupleSection() {
           >
             <div className="w-px h-16 bg-gradient-to-b from-transparent via-primary/30 to-transparent" />
             <div className="my-4 relative">
-              <div className="absolute -inset-4 bg-primary/10 rounded-full blur-lg animate-pulse-glow" />
+              <div className="absolute -inset-4 bg-accent/30 rounded-full blur-lg animate-pulse-glow" />
               <span className="font-vibes text-4xl text-primary text-glow relative">&amp;</span>
             </div>
             <div className="w-px h-16 bg-gradient-to-b from-transparent via-primary/30 to-transparent" />

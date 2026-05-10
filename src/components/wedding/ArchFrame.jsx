@@ -15,7 +15,7 @@ export default function ArchFrame({ imageUrl, name, parents, label, delay = 0 })
     >
       <div className="relative group">
         {/* Outer gold glow */}
-        <div className="absolute -inset-4 bg-primary/10 rounded-t-full rounded-b-lg blur-xl opacity-40 group-hover:opacity-80 transition-opacity duration-700" />
+        <div className="absolute -inset-4 bg-accent/30 rounded-t-full rounded-b-lg blur-xl opacity-40 group-hover:opacity-80 transition-opacity duration-700" />
 
         {/* The arch frame — fixed size container */}
         <div className="relative" style={{ width: 220, height: 300 }}>
@@ -50,7 +50,7 @@ export default function ArchFrame({ imageUrl, name, parents, label, delay = 0 })
             style={{
               position: 'absolute',
               top: 0, left: 0, width: '100%', height: '100%',
-              background: 'linear-gradient(to top, rgba(10,3,20,0.65) 0%, transparent 50%, rgba(212,175,55,0.05) 100%)',
+              background: 'linear-gradient(to top, rgba(10,3,20,0.65) 0%, transparent 50%, rgba(252,151,152,0.05) 100%)',
               clipPath: `path('${archPath}')`,
             }}
           />
@@ -66,30 +66,30 @@ export default function ArchFrame({ imageUrl, name, parents, label, delay = 0 })
             {/* Outer arch border */}
             <path
               d="M 20 300 L 20 110 Q 20 10 110 10 Q 200 10 200 110 L 200 300"
-              stroke="hsl(43, 72%, 53%)"
+              stroke="hsl(359, 94%, 79%)"
               strokeWidth="2.5"
             />
             {/* Inner arch border */}
             <path
               d="M 28 295 L 28 112 Q 28 22 110 22 Q 192 22 192 112 L 192 295"
-              stroke="hsl(43, 72%, 50%)"
+              stroke="hsl(359, 94%, 79%)"
               strokeWidth="0.8"
               opacity="0.55"
             />
             {/* Top finial */}
-            <circle cx="110" cy="4" r="4" fill="hsl(43, 72%, 53%)" />
-            <circle cx="110" cy="4" r="7" stroke="hsl(43, 72%, 53%)" strokeWidth="0.8" opacity="0.4" />
+            <circle cx="110" cy="4" r="4" fill="hsl(359, 94%, 79%)" />
+            <circle cx="110" cy="4" r="7" stroke="hsl(359, 94%, 79%)" strokeWidth="0.8" opacity="0.4" />
             {/* Temple spire lines */}
-            <path d="M 80 15 Q 110 -4 140 15" stroke="hsl(43, 72%, 53%)" strokeWidth="1.2" fill="none" />
+            <path d="M 80 15 Q 110 -4 140 15" stroke="hsl(359, 94%, 79%)" strokeWidth="1.2" fill="none" />
             {/* Side dots */}
-            <circle cx="88" cy="8" r="2" fill="hsl(43, 72%, 53%)" opacity="0.5" />
-            <circle cx="132" cy="8" r="2" fill="hsl(43, 72%, 53%)" opacity="0.5" />
+            <circle cx="88" cy="8" r="2" fill="hsl(359, 94%, 79%)" opacity="0.5" />
+            <circle cx="132" cy="8" r="2" fill="hsl(359, 94%, 79%)" opacity="0.5" />
             {/* Pillar lines */}
-            <line x1="24" y1="280" x2="24" y2="140" stroke="hsl(43, 72%, 53%)" strokeWidth="0.4" opacity="0.3" />
-            <line x1="196" y1="280" x2="196" y2="140" stroke="hsl(43, 72%, 53%)" strokeWidth="0.4" opacity="0.3" />
+            <line x1="24" y1="280" x2="24" y2="140" stroke="hsl(359, 94%, 79%)" strokeWidth="0.4" opacity="0.3" />
+            <line x1="196" y1="280" x2="196" y2="140" stroke="hsl(359, 94%, 79%)" strokeWidth="0.4" opacity="0.3" />
             {/* Bottom corner ornaments */}
-            <path d="M 20 290 Q 10 290 10 280" stroke="hsl(43, 72%, 53%)" strokeWidth="1.2" opacity="0.5" />
-            <path d="M 200 290 Q 210 290 210 280" stroke="hsl(43, 72%, 53%)" strokeWidth="1.2" opacity="0.5" />
+            <path d="M 20 290 Q 10 290 10 280" stroke="hsl(359, 94%, 79%)" strokeWidth="1.2" opacity="0.5" />
+            <path d="M 200 290 Q 210 290 210 280" stroke="hsl(359, 94%, 79%)" strokeWidth="1.2" opacity="0.5" />
           </svg>
         </div>
       </div>

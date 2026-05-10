@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="relative py-20 md:py-28 px-4 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-t from-secondary/40 to-background" />
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[400px] h-[200px] bg-primary/5 rounded-full blur-[100px]" />
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[400px] h-[200px] bg-accent/30 rounded-full blur-[100px]" />
 
       <motion.div
         initial={{ opacity: 0, y: 30 }}
