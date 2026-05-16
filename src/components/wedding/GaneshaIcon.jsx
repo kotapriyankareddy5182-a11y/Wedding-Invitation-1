@@ -18,8 +18,6 @@ export default function GaneshaIcon() {
           src={GANESHA_IMG}
           alt="Lord Ganesha"
           className="relative z-10 w-24 h-24 md:w-28 md:h-28 object-cover rounded-full border-2 border-primary/50 drop-shadow-[0_0_20px_rgba(252,151,152,0.5)]"
-          animate={{ rotate: 360 }}
-          transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
         />
       </div>
       <motion.p

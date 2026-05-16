@@ -33,9 +33,11 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 40, scale: 0.9 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ delay: 0.8, duration: 1.2, ease: "easeOut" }}
-          className="font-vibes text-6xl md:text-8xl lg:text-9xl text-white drop-shadow-lg mb-6"
+          className="font-vibes text-6xl md:text-8xl lg:text-9xl text-white drop-shadow-lg mb-6 flex flex-col md:flex-row items-center justify-center gap-2 md:gap-6 leading-tight"
         >
-          <span className="font-playfair">P</span>ooja & <span className="font-playfair">A</span>shok
+          <span><span className="font-playfair">P</span>ooja</span>
+          <span className="text-4xl md:text-6xl lg:text-7xl text-white/80">&</span>
+          <span><span className="font-playfair">A</span>shok</span>
         </motion.h1>
 
         <motion.div

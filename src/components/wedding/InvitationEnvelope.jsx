@@ -42,11 +42,9 @@ export default function InvitationEnvelope({ onOpen }) {
                   src="/images/ganesha.png"
                   alt="Lord Ganesha"
                   className="relative z-10 w-20 h-20 md:w-24 md:h-24 object-cover rounded-full border-2 border-white/50 drop-shadow-[0_0_20px_rgba(255,255,255,0.5)]"
-                  animate={{ rotate: 360 }}
-                  transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
                 />
               </div>
-              <p className="font-cormorant text-white/90 text-sm tracking-[0.3em] mt-3 uppercase">
+              <p className="font-cormorant text-[#4A1515] text-sm tracking-[0.3em] mt-3 uppercase font-bold">
                 ॐ गणेशाय नमः
               </p>
             </motion.div>
@@ -61,44 +59,46 @@ export default function InvitationEnvelope({ onOpen }) {
                 'bottom-3 right-3 rotate-180',
               ].map((pos, i) => (
                 <svg key={i} viewBox="0 0 20 20" className={`absolute w-5 h-5 ${pos}`} fill="none">
-                  <path d="M 1 10 L 1 1 L 10 1" stroke="white" strokeWidth="1.2" opacity="0.8" />
+                  <path d="M 1 10 L 1 1 L 10 1" stroke="#4A1515" strokeWidth="1.2" opacity="0.8" />
                 </svg>
               ))}
 
-              <p className="font-cormorant text-white/80 text-xs tracking-[0.5em] uppercase mb-3">
+              <p className="font-cormorant text-[#4A1515]/80 text-xs tracking-[0.5em] uppercase mb-3 font-semibold">
                 You're Invited
               </p>
-              <h1 className="font-vibes text-5xl md:text-6xl text-white drop-shadow-md mb-2">
-                <span className="font-playfair">P</span>ooja & <span className="font-playfair">A</span>shok
+              <h1 className="font-vibes text-5xl md:text-6xl text-[#4A1515] drop-shadow-sm mb-2 flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 leading-tight">
+                <span><span className="font-playfair">P</span>ooja</span>
+                <span className="text-3xl md:text-4xl text-[#4A1515]/80">&</span>
+                <span><span className="font-playfair">A</span>shok</span>
               </h1>
-              <p className="font-cormorant text-white/70 text-sm tracking-[0.3em] mb-1">
+              <p className="font-cormorant text-[#4A1515]/80 text-sm tracking-[0.3em] mb-1 font-medium">
                 Wedding Celebration
               </p>
-              <p className="font-cormorant text-white/90 text-base tracking-[0.2em] mb-8">
+              <p className="font-cormorant text-[#4A1515] text-base tracking-[0.2em] mb-8 font-semibold">
                 March 24, 2026
               </p>
 
               {/* Divider */}
               <div className="flex items-center justify-center gap-3 mb-8">
-                <div className="h-px w-12 bg-gradient-to-r from-transparent to-white/50" />
-                <svg viewBox="0 0 20 20" className="w-3 h-3 text-white/60" fill="currentColor">
+                <div className="h-px w-12 bg-gradient-to-r from-transparent to-[#4A1515]/50" />
+                <svg viewBox="0 0 20 20" className="w-3 h-3 text-[#4A1515]/60" fill="currentColor">
                   <path d="M10 2l2 6h6l-5 3.5 2 6-5-3.5-5 3.5 2-6L2 8h6z" />
                 </svg>
-                <div className="h-px w-12 bg-gradient-to-l from-transparent to-white/50" />
+                <div className="h-px w-12 bg-gradient-to-l from-transparent to-[#4A1515]/50" />
               </div>
 
               <motion.button
                 onClick={handleOpen}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.97 }}
-                className="relative inline-flex items-center gap-3 px-8 py-3 rounded-full border border-white/60 bg-white/20 font-cormorant text-white text-base tracking-[0.2em] uppercase transition-all duration-300 hover:bg-white/30 hover:border-white hover:shadow-[0_0_30px_rgba(255,255,255,0.4)]"
+                className="relative inline-flex items-center gap-3 px-8 py-3 rounded-full border border-[#4A1515]/40 bg-white/30 font-cormorant text-[#4A1515] text-base tracking-[0.2em] uppercase transition-all duration-300 hover:bg-white/50 hover:border-[#4A1515]/80 hover:shadow-[0_0_30px_rgba(74,21,21,0.2)] font-bold"
               >
                 <span>✦</span>
                 Open Invitation
                 <span>✦</span>
               </motion.button>
 
-              <p className="font-cormorant text-white/60 text-xs mt-5 tracking-wide italic">
+              <p className="font-cormorant text-[#4A1515]/70 text-xs mt-5 tracking-wide italic font-medium">
                 Tap to unveil the celebration
               </p>
             </div>
@@ -114,7 +114,7 @@ export default function InvitationEnvelope({ onOpen }) {
             <motion.p
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1.2, opacity: 1 }}
-              className="font-vibes text-5xl text-white drop-shadow-lg"
+              className="font-vibes text-5xl text-[#4A1515] drop-shadow-sm font-bold"
             >
               With Love & Blessings...
             </motion.p>

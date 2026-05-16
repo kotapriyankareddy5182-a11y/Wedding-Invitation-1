@@ -12,6 +12,7 @@ import RsvpSection from '../components/wedding/RsvpSection';
 import Footer from '../components/wedding/Footer';
 import LiveStreamSection from '../components/wedding/LiveStreamSection';
 import LocationMapSection from '../components/wedding/LocationMapSection';
+import WhatsAppButton from '../components/wedding/WhatsAppButton';
 
 export default function Home() {
   const [opened, setOpened] = useState(false);
@@ -43,6 +44,9 @@ export default function Home() {
           <Footer />
         </motion.div>
       )}
+
+      {/* Globally floating WhatsApp Button */}
+      <WhatsAppButton />
     </div>
   );
 }
